@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Register</title>
+    <title>ILC | Register</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -36,16 +36,25 @@
                             <div class="text-center">
                                 <h1 class="h4 text-gray-900 mb-4">Halaman Register</h1>
                             </div>
-                            <form action="">
-                                <label for="email">Email :</label>
-                                <input type="email" placeholder="sanusi@gmail.com"><br><br>
-                                <label for="password">password :</label>
-                                <input type="password" placeholder="password"><br><br>
-                                <label for="Foto Profile">Foto Profile :</label>
-                                <input type="file"><br><br>
-                                <label for="lahir">Tanggal Lahir :</label>
+                            <form class="container" action="">
+                                <!-- <label class="col-sm-2 col-form-label" for="email">Email</label>
+                                <input type="email" placeholder="sanusi@gmail.com" class="form-control"><br><br> -->
+
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="sanusi@gmail.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">password</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="password">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="formFile" class="form-label">Foto Profile</label>
+                                    <input class="form-control" type="file" id="formFile">
+                                  </div>
+                                <label class="col-sm-2 col-form-label" for="lahir">Tanggal Lahir :</label>
                                 <input type="date"><br><br>
-                                <label for="kelamin">Gender :</label>
+                                <label class="col-sm-2 col-form-label" for="kelamin">Gender :</label>
                                 <select name="male" id="male">
                                     <option value="male">Male</option>
                                     <option value="female">Female</option>
@@ -55,13 +64,6 @@
                                     <svg fill="white" viewBox="0 0 448 512" height="1em" class="arrow"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg>
                                   </button>
                             </form>
-                            <hr>
-                            <div class="text-center">
-                                <a class="small" href="forgot-password.html">Forgot Password?</a>
-                            </div>
-                            <div class="text-center">
-                                <a class="small" href="login.html">Already have an account? Login!</a>
-                            </div>
                         </div>
                     </div>
                 </div>
